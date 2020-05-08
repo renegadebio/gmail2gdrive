@@ -21,7 +21,7 @@ function getGmail2GDriveConfig() {
       { // Store all attachments sent to receipts@renegade.bio to the folder "Scans"
         "filter": "has:attachment to:receipts@renegade.bio",
         "folder": "'Business Admin & Finance/Finance & Accounting/Receipts/Unsorted'-yyyy-MM-dd"
-        "filenameTo": "'yyyy-MM-dd-'%s'",
+        "filenameTo": "'yyyy_MMdd_'%s'",
         "archive": true
       },
     ]
